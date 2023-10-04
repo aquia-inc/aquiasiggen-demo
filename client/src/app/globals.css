@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+table[name="signature"] {
+  width: 400px;
+  font-family: Arial, 'Arimo', Helvetica, sans-serif sans-serif;
+  mso-line-height-rule: exactly;
+  border-collapse: collapse;
+  -webkit-text-size-adjust: none;
+}
+
+table[name="signature"] td {
+  padding-bottom: 7px;
+}
+
+table[name="signature"] img {
+  border-radius: 50%;
+}
+
+table[name="signature"] td:nth-child(2) {
+  text-align: left;
+  border-left: 2px solid #050e69;
+}
+
+table[name="signature"] td:nth-child(2) table {
+  width: 223px;
+}
+
+table[name="signature"] td:nth-child(2) td {
+  padding-bottom: 5px;
+  line-height: 12pt;
+  padding-top: 5px;
+  width: 170px;
+}
+
+table[name="signature"] td:nth-child(2) p {
+  margin: 0;
+}
+
+table[name="signature"] img[src*="images/"] {
+  border: 0;
+  vertical-align: middle;
+}
